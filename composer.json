@@ -1,0 +1,21 @@
+{
+    "name": "usuario/tarea5",
+    "description": "tarea recuperacion",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NEBUR342",
+            "email": "ralvarezfernandez342@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "fakerphp/faker": "^1.21"
+    }
+}
